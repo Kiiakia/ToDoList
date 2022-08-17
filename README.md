@@ -1,24 +1,12 @@
 # todolist
 
-## Project setup
-```
-npm install
-```
+实现：利用Vue框架实现
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+功能：
 
-### Compiles and minifies for production
-```
-npm run build
-```
+* 添加列表待完成项
+* 删除选中项
+* 勾选决定条项是否完成
+* 删除已完成项
+* 一次性全选完成项
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
