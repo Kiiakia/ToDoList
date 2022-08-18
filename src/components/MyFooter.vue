@@ -47,8 +47,14 @@ export default {
             this.CheckAllTodo(e.target.checked);
         },
         clearAll(){
+          if(this.doneTotal===0){
+            alert('您没有已完成的任务，请先完成任务！');
+          }
+          else{
             if(confirm("确认清除已完成的任务吗？")){
                  this.ClearAll();
+          }
+            
         }
         }
            
